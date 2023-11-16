@@ -1,5 +1,4 @@
 /* styles.module.css */
-
 body {
   display: flex;
   align-items: center;
@@ -24,14 +23,20 @@ body {
 .heading {
   color: #ffffff;
 }
-
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 .google_btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #c2d1e3; /* Google Blue */
+  background-color: #ffffff; /* Google Blue */
   color: #1a1a1a;
   border: none;
+  width: 200px;
   border-radius: 4px;
   padding: 10px;
   cursor: pointer;
@@ -39,11 +44,32 @@ body {
 }
 
 .google_btn:hover {
-  background-color: #bbcde8; /* Darker Blue on hover */
+  background-color: #ededed; /* Darker Blue on hover */
 }
 
 .google_btn img {
   width: 20px;
   height: 20px;
   margin-right: 10px;
+}
+.down {
+  margin-top: 200px; /* Adjust the margin as needed */
+  text-align: center;
+  width: 300px;
+  color: #757575; /* Adjust the text color */
+}
+
+.down p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.down a {
+  color: #4285f4; /* Adjust the link color */
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.down a:hover {
+  color: #2f70e1; /* Adjust the link color on hover */
 }
